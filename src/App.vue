@@ -11,7 +11,7 @@
   import{productos} from "./datos.js"
   const contador=ref(0)
   const total=productos.length;
-  const ruta="https://html6.es/img/rey_"
+  const ruta="https://www.html6.es/img/rey_"
   const siguiente=()=>{
     contador.value++
     if (contador.value>=total){
@@ -33,4 +33,4 @@ const imagen=computed(()=>{
 <style scoped>
 
 </style>
-<!-- Minuto 01:01 -->
+<!-- Minuto 01:05 falla imagenes-->
