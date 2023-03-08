@@ -1,5 +1,8 @@
 <template>
-<h2>Cena{{ contador + 1 }}</h2>
+<h2>Cena{{ contador + 1 }}
+  con el rey godo {{ productos[contador].nombre }}
+</h2>
+
 <button @:click="siguiente">Siguiente ({{ contador +1 }}/ {{total}})</button>
 </template>
 
